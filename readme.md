@@ -1,7 +1,8 @@
 # Respuestas al ejercicio 1
 
 <br/>- ¿Qué comando utilizaste en el paso 11? ¿Por qué?<br/>
-$git reset --hard HEAD~1	*reset para deshacer el ultimo commit, hard para deshacer incluso lo que hay en el working copy, y HEAD~1 para indicarle volver al commit padre*<br/>
+$git reset --hard HEAD~1	
+*reset para deshacer el ultimo commit, hard para deshacer incluso lo que hay en el working copy, y HEAD~1 para indicarle volver al commit padre*<br/>
 
 <br/>- ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?<br/>
 $git reflog			*para ver logs y saber SHA de ultima referencia*<br/>
@@ -41,5 +42,5 @@ $git reflog					<br/>
 $git reset
 
 <br/>- ¿Qué comando o comandos usaste en el punto 33?<br/>
-$git reflog			*busco commit que pone "Añado titulo..."<br/>
+$git reflog			*busco commit que pone "Añado titulo..."*<br/>
 $git reset b7182e0
