@@ -1,7 +1,8 @@
 # Respuestas al ejercicio 1
 
 <br/>- ¿Qué comando utilizaste en el paso 11? ¿Por qué?<br/>
-$git reset --hard HEAD~1	
+$git reset --hard HEAD~1
+
 *reset para deshacer el ultimo commit, hard para deshacer incluso lo que hay en el working copy, y HEAD~1 para indicarle volver al commit padre*<br/>
 
 <br/>- ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?<br/>
